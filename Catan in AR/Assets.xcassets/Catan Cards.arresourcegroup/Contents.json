@@ -1,0 +1,23 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "brick-card.arreferenceimage"
+    },
+    {
+      "filename" : "goat-card.arreferenceimage"
+    },
+    {
+      "filename" : "hay-card.arreferenceimage"
+    },
+    {
+      "filename" : "stone-card.arreferenceimage"
+    },
+    {
+      "filename" : "wood-card.arreferenceimage"
+    }
+  ]
+}

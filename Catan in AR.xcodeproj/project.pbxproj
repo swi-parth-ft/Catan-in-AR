@@ -11,6 +11,7 @@
 		0704AF012C5EDA07000D1F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704AF002C5EDA07000D1F32 /* ContentView.swift */; };
 		0704AF032C5EDA09000D1F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0704AF022C5EDA09000D1F32 /* Assets.xcassets */; };
 		0704AF062C5EDA09000D1F32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0704AF052C5EDA09000D1F32 /* Preview Assets.xcassets */; };
+		0704AF0D2C5EDA67000D1F32 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0704AF0C2C5EDA67000D1F32 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0704AF002C5EDA07000D1F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0704AF022C5EDA09000D1F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0704AF052C5EDA09000D1F32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0704AF0C2C5EDA67000D1F32 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0704AEFE2C5EDA07000D1F32 /* Catan_in_ARApp.swift */,
 				0704AF002C5EDA07000D1F32 /* ContentView.swift */,
+				0704AF0C2C5EDA67000D1F32 /* art.scnassets */,
 				0704AF022C5EDA09000D1F32 /* Assets.xcassets */,
 				0704AF042C5EDA09000D1F32 /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0704AF062C5EDA09000D1F32 /* Preview Assets.xcassets in Resources */,
+				0704AF0D2C5EDA67000D1F32 /* art.scnassets in Resources */,
 				0704AF032C5EDA09000D1F32 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = P5K444356C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera usage to experience the App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = P5K444356C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera usage to experience the App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
